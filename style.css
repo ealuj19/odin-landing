@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Text styling for header section*/
+
+.logo a,
+.header-subhead {
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.header-right a,
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*Layout styling for header section*/
+
+.header {
+    background-color: #1f2937;
+    padding: 15px 300px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.header-right {
+    display: flex;
+    gap: 10px;
+}
