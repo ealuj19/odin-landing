@@ -2,9 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.image {
     height: 250px;
     width: auto;
 }
@@ -13,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 10px;
+    flex: none;
+}
 /*Text styling for header section*/
 
 .logo a,
@@ -23,6 +30,10 @@ a {
 
 .logo a {
     font-size: 24px;
+}
+
+.header-subhead {
+    font-size: 48px;
 }
 
 .header-right a,
@@ -38,6 +49,8 @@ a {
     padding: 15px 300px;
 }
 
+/*Layout for top section of header*/
+
 .header-links {
     display: flex;
     align-items: center;
@@ -45,8 +58,43 @@ a {
     margin-bottom: 100px;
 }
 
-
 .header-right {
     display: flex;
-    gap: 10px;
+    gap: 16px;
+}
+
+/*Layout for content section of header*/
+
+.header-content {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    gap: 60px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-content button {
+    margin: auto;
+    margin-left: 0;
+    border-radius: 8px;
+    padding: 8px 26px;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+}
+
+.header-image {
+    display: flex;
+    flex: auto;
+}
+
+.header-content img {
+    width: 650px;
+    display: flex;
+    align-items: center;
 }
