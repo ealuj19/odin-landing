@@ -118,8 +118,9 @@ button {
 .info-blocks {
     display: flex;
     padding: 0px 80px;
-    gap: 50px;
+    justify-content: space-between;
     margin-bottom: 90px;
+    gap: 50px;
 }
 
 .info-blocks div {
@@ -129,6 +130,7 @@ button {
     text-align: center;
     padding: 0px;
     gap: 10px;
+    flex: 1;
 }
 
 /* Quote section layout */
