@@ -191,3 +191,12 @@ button {
 .action-container button a {
     color: #f9faf8
 }
+
+/* Footer layout */
+
+.footer {
+    padding: 42px 0px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
